@@ -13,7 +13,7 @@ There are two workarounds:
 This has been ported to Go with help from GitHub Copilot. I don't know Go. Errors are likely. No warranties are given. It seems to be working
 
 #### Limitations
-Go's compress library only support 'Deflate' compression OOTB, so this is the only method supported. Only tested on Windows so far. This is a port of release 0.9.1 of rules_pkg, now some months behind latest.
+Go's zip library only supports 'Deflate' compression OOTB, so this is the only method supported. Only tested on Windows so far. This is a port of release 0.9.1 of rules_pkg, now some months behind latest.
 
 #### Usage
 To use, load zip.bzl from this repository instead of from rules_pkg.
