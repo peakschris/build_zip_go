@@ -154,7 +154,7 @@ limited to a granularity of 2 seconds.""",
     provides = [PackageArtifactInfo],
 )
 
-def tc_pkg_zip(name, out = None, **kwargs):
+def pkg_zip(name, out = None, **kwargs):
     """Creates a .zip file.
 
     @wraps(pkg_zip_impl)
